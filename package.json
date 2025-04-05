@@ -1,0 +1,17 @@
+{
+    "name": "visionux-api",
+    "version": "1.0.0",
+    "description": "API para el catálogo de herramientas de VisionUX Lab",
+    "main": "Catalogoapi.js",
+    "scripts": {
+        "start": "node Catalogoapi.js"
+    },
+    "keywords": [
+        "API",
+        "Node",
+        "JSON",
+        "accesibilidad"
+    ],
+    "author": "Sofía",
+    "license": "MIT"
+}
