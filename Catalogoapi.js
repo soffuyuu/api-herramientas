@@ -1,6 +1,6 @@
 const http = require("node:http");
 const url = require("node:url");
-const puerto = 3000;
+const puerto = process.env.PORT || 3000;
 const fs = require("node:fs");
 
 //leer directamente el JSON existente con las categorias
