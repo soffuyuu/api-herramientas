@@ -119,13 +119,14 @@ function regresarArregloEndpoints() {
 
     categorias.forEach(categoria => {
         const herramientas = JSON.parse(fs.readFileSync("herramientas.json", "utf8"))[categoria].herramienta;
+        const urlBase = process.env.BASE_URL || `http://localhost:${puerto}`;
 
         herramientas.forEach(herramienta => {
             arregloHerramientas.push({
                 "id": herramienta.id,
                 "categoria": categoria,
                 "name": herramienta.titulo,
-                "endpoint": `http://localhost:${puerto}/${categoria}/${herramienta.id}`
+                "endpoint": `${urlBase}/${categoria}/${herramienta.id}`
             });
         });
     });
