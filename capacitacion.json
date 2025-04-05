@@ -1,0 +1,57 @@
+{
+    "herramienta": [
+      {
+        "id": 1,
+        "titulo": "Simulador de discapacidad visual",
+        "subtitulo": "Muestra cómo se ve el sitio para personas con baja visión.",
+        "descripcion": "Permite aplicar filtros visuales para simular condiciones como daltonismo, cataratas y glaucoma, ayudando a los diseñadores a entender las dificultades que enfrentan los usuarios con discapacidad visual.",
+        "imagen": "https://i.imgur.com/txefuuw.jpeg",
+        "caracteristicas": [
+          "Filtros para diferentes tipos de discapacidad visual.",
+          "Permite evaluar la accesibilidad del diseño.",
+          "Facilita la empatía con los usuarios."
+        ],
+        "switch_id": "simuladorVisionSwitch"
+      },
+      {
+        "id": 2,
+        "titulo": "Guía de accesibilidad rápida (WCAG)",
+        "subtitulo": "Explica los principios clave de accesibilidad web.",
+        "descripcion": "Presenta un resumen de los criterios más importantes de accesibilidad según las WCAG, con ejemplos prácticos de cada uno.",
+        "imagen": "https://i.imgur.com/txefuuw.jpeg",
+        "caracteristicas": [
+          "Explicaciones claras y concisas.",
+          "Ejemplos visuales de accesibilidad correcta e incorrecta.",
+          "Enfoque en los cuatro principios: Perceptible, Operable, Comprensible y Robusto."
+        ],
+        "switch_id": "guiaAccesibilidadSwitch"
+      },
+      {
+        "id": 3,
+        "titulo": "Modo solo teclado",
+        "subtitulo": "Prueba la accesibilidad sin usar el mouse.",
+        "descripcion": "Simula la navegación de una persona que no puede utilizar un mouse, permitiendo interactuar solo con el teclado (Tab, Enter, Espacio, Flechas). Ayuda a evaluar si los elementos son accesibles y están en el orden correcto.",
+        "imagen": "https://i.imgur.com/txefuuw.jpeg",
+        "caracteristicas": [
+          "Simulación de navegación solo con teclado.",
+          "Indica si el orden de tabulación es correcto.",
+          "Permite entender las dificultades de usuarios sin ratón."
+        ],
+        "switch_id": "modoSoloTecladoSwitch"
+      },
+      {
+        "id": 4,
+        "titulo": "Errores comunes de accesibilidad",
+        "subtitulo": "Identifica y corrige problemas frecuentes en diseño web.",
+        "descripcion": "Presenta ejemplos de errores comunes en accesibilidad web, como bajo contraste, navegación desordenada o ausencia de etiquetas ARIA, junto con soluciones prácticas.",
+        "imagen": "https://i.imgur.com/txefuuw.jpeg",
+        "caracteristicas": [
+          "Explicación de errores y su impacto.",
+          "Ejemplos visuales con comparación antes/después.",
+          "Recomendaciones para corregirlos."
+        ],
+        "switch_id": "erroresAccesibilidadSwitch"
+      }
+    ]
+  }
+  

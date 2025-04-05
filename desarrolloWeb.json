@@ -1,0 +1,57 @@
+{
+    "herramienta": [
+      {
+        "id": 1,
+        "titulo": "Etiqueta ARIA Live para anuncios dinámicos",
+        "subtitulo": "Permite que los lectores de pantalla detecten cambios en tiempo real.",
+        "descripcion": "Implementa atributos ARIA para que los cambios en el contenido sean anunciados automáticamente a los usuarios que utilizan lectores de pantalla.",
+        "imagen": "https://i.imgur.com/txefuuw.jpeg",
+        "caracteristicas": [
+          "Compatible con tecnologías de asistencia.",
+          "Anuncia cambios sin necesidad de recargar la página.",
+          "Mejora la accesibilidad de contenido dinámico."
+        ],
+        "switch_id": "ariaLiveSwitch"
+      },
+      {
+        "id": 2,
+        "titulo": "Orden de navegación con teclado",
+        "subtitulo": "Asegura que los elementos se naveguen en el orden correcto.",
+        "descripcion": "Garantiza que los usuarios puedan navegar por la página utilizando solo el teclado, asegurando un orden lógico de tabulación.",
+        "imagen": "https://i.imgur.com/txefuuw.jpeg",
+        "caracteristicas": [
+          "Compatible con navegación por teclado (Tab y Enter).",
+          "Indica errores en el orden de tabulación.",
+          "Mejora la experiencia de usuarios sin ratón."
+        ],
+        "switch_id": "ordenTecladoSwitch"
+      },
+      {
+        "id": 3,
+        "titulo": "Modo sin animaciones",
+        "subtitulo": "Reduce movimientos innecesarios para evitar mareos o distracción.",
+        "descripcion": "Desactiva las animaciones y efectos visuales para evitar molestias en personas con sensibilidad al movimiento o trastornos vestibulares.",
+        "imagen": "https://i.imgur.com/txefuuw.jpeg",
+        "caracteristicas": [
+          "Opción de desactivar transiciones y efectos.",
+          "Compatible con configuraciones del sistema operativo.",
+          "Reduce el esfuerzo visual al navegar."
+        ],
+        "switch_id": "modoSinAnimacionesSwitch"
+      },
+      {
+        "id": 4,
+        "titulo": "Zoom sin perder funcionalidad",
+        "subtitulo": "Asegura que la página se mantenga funcional al ampliar la vista.",
+        "descripcion": "Demuestra cómo una página debe adaptarse al ser ampliada hasta un 200% sin afectar su funcionalidad ni diseño.",
+        "imagen": "https://i.imgur.com/txefuuw.jpeg",
+        "caracteristicas": [
+          "Simulación de zoom accesible.",
+          "Comparación entre buen y mal diseño al ampliar.",
+          "Compatible con diferentes tamaños de pantalla."
+        ],
+        "switch_id": "zoomFuncionalSwitch"
+      }
+    ]
+  }
+  

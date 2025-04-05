@@ -1,0 +1,56 @@
+{
+    "herramienta": [
+        {
+            "id": 1,
+            "titulo": "Prueba de contraste",
+            "subtitulo": "Mejora de visibilidad para usuarios con baja visión.",
+            "descripcion": "El alto contraste incrementa la diferencia entre los colores de fondo y texto, mejorando la legibilidad para personas con baja visión o sensibilidad a la luz.",
+            "imagen": "https://i.imgur.com/txefuuw.jpeg",
+            "caracteristicas": [
+                "Aplicación de esquemas de alto contraste en tiempo real.",
+                "Cumplimiento con los estándares de accesibilidad (WCAG).",
+                "Evaluación del contraste en textos, botones y otros elementos visuales."
+            ],
+            "switch_id": "contrastSwitch"
+        },
+        {
+            "id": 2,
+            "titulo": "Daltonismo",
+            "subtitulo": "Adaptación del color para accesibilidad visual.",
+            "descripcion": "El daltonismo es una alteración de la percepción del color que dificulta la distinción de ciertos tonos. Esta herramienta permite simular distintos tipos de daltonismo para evaluar la accesibilidad del diseño web.",
+            "imagen": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/025.png",
+            "caracteristicas": [
+                "Simulación de diferentes tipos de daltonismo: protanopía, deuteranopía, tritanopía.",
+                "Aplicación de filtros sobre la interfaz para visualizar cambios en tiempo real.",
+                "Evaluación de la diferenciación de colores en la interfaz."
+            ],
+            "switch_id": null
+        },
+        {
+            "id": 3,
+            "titulo": "Lector de pantalla",
+            "subtitulo": "Conversión de texto a voz para accesibilidad.",
+            "descripcion": "Los lectores de pantalla permiten que personas con discapacidad visual accedan al contenido web mediante síntesis de voz. Esta herramienta simula su funcionamiento para verificar la accesibilidad del contenido.",
+            "imagen": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/025.png",
+            "caracteristicas": [
+                "Lectura en voz alta del contenido textual de una página.",
+                "Evaluación de la estructura semántica del sitio web.",
+                "Detección de elementos sin etiquetas accesibles."
+            ],
+            "switch_id": null
+        },
+        {
+            "id": 4,
+            "titulo": "Modo Enfoque",
+            "subtitulo": "Indicador visual para navegación con teclado.",
+            "descripcion": "El enfoque visual es esencial para usuarios que navegan sin mouse. Esta herramienta resalta los elementos activos durante la navegación con teclado, mejorando la accesibilidad de la interfaz.",
+            "imagen": "https://static.wikia.nocookie.net/super_smash_bros__series/images/7/77/Pikachu.png/revision/latest?cb=20200425132726&path-prefix=es",
+            "caracteristicas": [
+                "Resaltado de los elementos activos en la navegación por teclado.",
+                "Simulación del comportamiento del enfoque en formularios y botones.",
+                "Evaluación de la visibilidad de los indicadores de selección."
+            ],
+            "switch_id": null
+        }
+    ]
+}

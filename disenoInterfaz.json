@@ -1,0 +1,57 @@
+{
+    "herramienta": [
+      {
+        "id": 1,
+        "titulo": "Escala de texto accesible",
+        "subtitulo": "Ajusta el tamaño del texto para mejorar la legibilidad.",
+        "descripcion": "Permite modificar el tamaño de la tipografía para garantizar que el contenido sea legible para personas con baja visión o dificultades de lectura. Cumple con las pautas de accesibilidad (WCAG).",
+        "imagen": "https://i.imgur.com/txefuuw.jpeg",
+        "caracteristicas": [
+          "Ajuste dinámico del tamaño de letra.",
+          "Cumple con las recomendaciones de accesibilidad.",
+          "Mejora la experiencia de lectura sin afectar el diseño."
+        ],
+        "switch_id": "escalaTextoSwitch"
+      },
+      {
+        "id": 2,
+        "titulo": "Espaciado de texto",
+        "subtitulo": "Mejora la legibilidad ajustando el espacio entre palabras y líneas.",
+        "descripcion": "Modifica el interlineado, el espaciado entre caracteres y el espacio entre palabras para facilitar la lectura a personas con dislexia o baja visión.",
+        "imagen": "https://i.imgur.com/txefuuw.jpeg",
+        "caracteristicas": [
+          "Ajuste automático de espaciado.",
+          "Ayuda a personas con dificultades de lectura.",
+          "Compatible con diferentes estilos de texto."
+        ],
+        "switch_id": "espaciadoTextoSwitch"
+      },
+      {
+        "id": 3,
+        "titulo": "Modo de lectura fácil",
+        "subtitulo": "Simplifica la interfaz para mejorar la comprensión del contenido.",
+        "descripcion": "Reduce los elementos visuales innecesarios y presenta el contenido en un formato más claro y fácil de entender para personas con dificultades cognitivas o baja visión.",
+        "imagen": "https://i.imgur.com/txefuuw.jpeg",
+        "caracteristicas": [
+          "Elimina distracciones visuales.",
+          "Mantiene el contenido principal accesible.",
+          "Facilita la navegación y la lectura."
+        ],
+        "switch_id": "modoLecturaFacilSwitch"
+      },
+      {
+        "id": 4,
+        "titulo": "Paleta de colores accesibles",
+        "subtitulo": "Sugiere combinaciones de colores con buen contraste.",
+        "descripcion": "Permite probar diferentes esquemas de color para garantizar que sean accesibles para personas con daltonismo o baja visión.",
+        "imagen": "https://i.imgur.com/txefuuw.jpeg",
+        "caracteristicas": [
+          "Generador de combinaciones accesibles.",
+          "Verificación automática de contraste.",
+          "Adaptable a diferentes estilos de diseño."
+        ],
+        "switch_id": "paletaColoresSwitch"
+      }
+    ]
+  }
+  

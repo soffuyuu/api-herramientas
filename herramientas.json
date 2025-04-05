@@ -1,0 +1,299 @@
+{
+    "accesibilidadWeb": {
+      "herramienta": [
+        {
+          "id": 1,
+          "titulo": "Prueba de contraste",
+          "subtitulo": "Mejora de visibilidad para usuarios con baja visión.",
+          "descripcion": "El alto contraste incrementa la diferencia entre los colores de fondo y texto, mejorando la legibilidad para personas con baja visión o sensibilidad a la luz.",
+          "imagen": "https://i.imgur.com/c0w1lt8.png",
+          "caracteristicas": [
+            "Aplicación de esquemas de alto contraste en tiempo real.",
+            "Cumplimiento con los estándares de accesibilidad (WCAG).",
+            "Evaluación del contraste en textos, botones y otros elementos visuales."
+          ],
+          "url_herramienta": "https://color-contrast-checker.deque.com/",
+          "switch_id": "contrastSwitch"
+        },
+        {
+          "id": 2,
+          "titulo": "Protanopía",
+          "subtitulo": "Simulación de visión Protanópica.",
+          "descripcion": "Visualización optimizada para simular la baja sensibilidad hacia los tonos rojos, permitiendo experimentar cómo se perciben los colores en condiciones protanópicas.",
+          "imagen": "https://i.imgur.com/j4sh6mL.png",
+          "caracteristicas": [
+            "Reducción precisa en la percepción de rojos y sus matices.",
+            "Aplicación de filtros interactivos que transforman la interfaz de forma inmediata.",
+            "Análisis y realce del contraste entre colores para facilitar su diferenciación."
+          ],
+          "url_herramienta": "https://www.nei.nih.gov/espanol/aprenda-sobre-la-salud-ocular/enfermedades-y-afecciones-de-los-ojos/daltonismo/tipos-de-daltonismo#:~:text=Protanomal%C3%ADa%3A%20hace%20que%20ciertas%20tonalidades,el%20rojo%20y%20el%20verde.",
+          "switch_id": "protanopiaSwitch"
+        },
+        {
+          "id": 3,
+          "titulo": "Deuteranopía",
+          "subtitulo": "Simulación de visión Deuteranópica.",
+          "descripcion": "Emulación diseñada para reflejar la disminución en la percepción de tonos verdes, evidenciando cómo varía la presentación de la paleta en entornos digitales.",
+          "imagen": "https://i.imgur.com/j4sh6mL.png",
+          "caracteristicas": [
+            "Reproducción fiel de la baja percepción de los tonos verdes.",
+            "Filtros aplicados en la interfaz que permiten ver cambios al instante.s",
+            "Herramientas de evaluación que ayudan a mejorar la diferenciación y legibilidad de colores."
+          ],
+          "url_herramienta": "https://www.nei.nih.gov/espanol/aprenda-sobre-la-salud-ocular/enfermedades-y-afecciones-de-los-ojos/daltonismo/tipos-de-daltonismo#:~:text=Protanomal%C3%ADa%3A%20hace%20que%20ciertas%20tonalidades,el%20rojo%20y%20el%20verde.",
+          "switch_id": "deuteranopiaSwitch"
+        },
+        {
+          "id": 4,
+          "titulo": "Tritanopía",
+          "subtitulo": "Simulación de visión Tritanópica.",
+          "descripcion": "Representación visual que refleja la dificultad para distinguir los tonos azules y amarillos, adecuando la interfaz para evidenciar las alteraciones propias de la tritanopía.",
+          "imagen": "https://i.imgur.com/j4sh6mL.png",
+          "caracteristicas": [
+            "Simulación de la pérdida de sensibilidad a azules y amarillos.",
+            "Aplicación de modificaciones visuales en tiempo real para observar el impacto de esta condición.",
+            "Evaluación constante de la diferenciación cromática para optimizar la experiencia del usuario."
+          ],
+          "url_herramienta": "https://www.nei.nih.gov/espanol/aprenda-sobre-la-salud-ocular/enfermedades-y-afecciones-de-los-ojos/daltonismo/tipos-de-daltonismo#:~:text=Protanomal%C3%ADa%3A%20hace%20que%20ciertas%20tonalidades,el%20rojo%20y%20el%20verde.",
+          "switch_id": "tritanopiaSwitch"
+        },
+        {
+          "id": 5,
+          "titulo": "Lector de pantalla",
+          "subtitulo": "Conversión de texto a voz para accesibilidad.",
+          "descripcion": "Los lectores de pantalla permiten que personas con discapacidad visual accedan al contenido web mediante síntesis de voz.",
+          "imagen": "https://i.imgur.com/LS9H5J7.png",
+          "caracteristicas": [
+            "Lectura en voz alta del contenido textual de una página.",
+            "Evaluación de la estructura semántica del sitio web.",
+            "Detección de elementos sin etiquetas accesibles."
+          ],
+          "url_herramienta": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API",
+          "switch_id": "lectorSwitch"
+        },
+        {
+          "id": 6,
+          "titulo": "Modo enfoque (Tecla Tab)",
+          "subtitulo": "Indicador visual para navegación con teclado.",
+          "descripcion": "Resalta los elementos activos durante la navegación con teclado, mejorando la accesibilidad de la interfaz.",
+          "imagen": "https://i.imgur.com/k2ahk6y.png",
+          "caracteristicas": [
+            "Activa la herramienta para resaltar los elementos.",
+            "Presiona la tecla Tab para navegar por la interfaz.",
+            "Reemplaza el estilo predefinido del navegador para mejorar la visibilidad de los elementos."
+          ],
+          "url_herramienta": "https://help.gnome.org/users/gnome-help/stable/keyboard-nav.html.es",
+          "switch_id": "enfoqueSwitch"
+        }
+      ]
+    },
+    "capacitacion": {
+      "herramienta": [
+        {
+          "id": 1,
+          "titulo": "Simulador de discapacidad visual",
+          "subtitulo": "Muestra cómo se ve el sitio para personas con baja visión.",
+          "descripcion": "Permite aplicar filtros visuales para simular condiciones como daltonismo, cataratas y glaucoma.",
+          "imagen": "https://i.imgur.com/m1WApi3.png",
+          "caracteristicas": [
+            "Filtros para diferentes tipos de discapacidad visual.",
+            "Permite evaluar la accesibilidad del diseño.",
+            "Facilita la empatía con los usuarios."
+          ],
+          "url_herramienta": "https://accesibilidadweb.dlsi.ua.es/?menu=hr-sim-dis-visual",
+          "switch_id": "simuladorVisionSwitch"
+        },
+        {
+          "id": 2,
+          "titulo": "Guía de accesibilidad rápida (WCAG)",
+          "subtitulo": "Explica los principios clave de accesibilidad web.",
+          "descripcion": "Presenta un resumen de los criterios más importantes de accesibilidad según las WCAG, con ejemplos prácticos.",
+          "imagen": "https://i.imgur.com/LrzzKGL.png",
+          "caracteristicas": [
+            "Explicaciones claras y concisas.",
+            "Ejemplos visuales de accesibilidad correcta e incorrecta.",
+            "Enfoque en los cuatro principios: Perceptible, Operable, Comprensible y Robusto."
+          ],
+          "url_herramienta": "https://guia-wcag.com/es/",
+          "switch_id": null
+        },
+        {
+          "id": 3,
+          "titulo": "Modo solo teclado",
+          "subtitulo": "Prueba la accesibilidad sin usar el mouse.",
+          "descripcion": "Simula la navegación solo con teclado (Tab, Enter, Espacio, Flechas).",
+          "imagen": "https://i.imgur.com/1kCGdVw.png",
+          "caracteristicas": [
+            "Simulación de navegación solo con teclado.",
+            "Indica si el orden de tabulación es correcto.",
+            "Permite entender las dificultades de usuarios sin ratón."
+          ],
+          "url_herramienta": "https://developer.mozilla.org/es/docs/Web/Accessibility/Guides/Understanding_WCAG/Keyboard",
+          "switch_id": "modoSoloTecladoSwitch"
+        },
+        {
+          "id": 4,
+          "titulo": "Errores comunes de accesibilidad",
+          "subtitulo": "Identifica y corrige problemas frecuentes en diseño web.",
+          "descripcion": "Presenta ejemplos de errores comunes en accesibilidad web.",
+          "imagen": "https://i.imgur.com/UWpRtJD.png",
+          "caracteristicas": [
+            "Explicación de errores y su impacto.",
+            "Ejemplos visuales con comparación antes/después.",
+            "Recomendaciones para corregirlos."
+          ],
+          "url_herramienta": "https://developer.mozilla.org/es/docs/Learn_web_development/Core/Accessibility/Accessibility_troubleshooting",
+          "switch_id": null
+        }
+      ]
+    },
+    "disenoDeInterfaces": {
+      "herramienta": [
+        {
+          "id": 1,
+          "titulo": "Typescale",
+          "subtitulo": "Ajusta el tamaño del texto para mejorar la legibilidad.",
+          "descripcion": "Permite modificar el tamaño de la tipografía para garantizar la legibilidad.",
+          "imagen": "https://i.imgur.com/nmFYkxR.png",
+          "caracteristicas": [
+            "Ajuste dinámico del tamaño de letra.",
+            "Cumple con las recomendaciones de accesibilidad.",
+            "Mejora la experiencia de lectura sin afectar el diseño."
+          ],
+          "url_herramienta": "https://typescale.com/",
+          "button_id": "escalaTextoButton"
+        },
+        {
+          "id": 2,
+          "titulo": "Espaciado de texto",
+          "subtitulo": "Mejora la legibilidad ajustando el espacio entre palabras y líneas.",
+          "descripcion": "Modifica el interlineado, el espaciado entre caracteres y el espacio entre palabras para facilitar la lectura.",
+          "imagen": "https://i.imgur.com/wmnfcto.png",
+          "caracteristicas": [
+            "Ajuste automático de espaciado.",
+            "Ayuda a personas con dificultades de lectura.",
+            "Compatible con diferentes estilos de texto."
+          ],
+          "url_herramienta": "https://www.usableyaccesible.com/archivos/CSS_WCAG21_1_4_12.css",
+          "switch_id": "espaciadoTextoSwitch"
+        },
+        {
+          "id": 3,
+          "titulo": "Modo de lectura fácil",
+          "subtitulo": "Simplifica la interfaz para mejorar la comprensión del contenido.",
+          "descripcion": "Reduce los elementos visuales innecesarios y presenta el contenido en un formato claro.",
+          "imagen": "https://i.imgur.com/LS9H5J7.png",
+          "caracteristicas": [
+            "Elimina distracciones visuales.",
+            "Mantiene el contenido principal accesible.",
+            "Facilita la navegación y la lectura."
+          ],
+          "url_herramienta": "https://readermode.io/features/custom-css",
+          "switch_id": "modoLecturaFacilSwitch"
+        },
+        {
+          "id": 4,
+          "titulo": "RandomA11y",
+          "subtitulo": "Generador de paleta de colores accesibles con buen contraste.",
+          "descripcion": "Permite probar diferentes esquemas de color para garantizar accesibilidad.",
+          "imagen": "https://i.imgur.com/tjWosfM.png",
+          "caracteristicas": [
+            "Generador de combinaciones accesibles.",
+            "Verificación automática de contraste.",
+            "Adaptable a diferentes estilos de diseño."
+          ],
+          "url_herramienta": "https://randoma11y.com/",
+          "button_id": "paletaColoresButton"
+        },
+        {
+          "id": 5,
+          "titulo": "OpenDyslexic",
+          "subtitulo": "Fuente diseñada para facilitar la lectura a personas con dislexia.",
+          "descripcion": "Sus letras tienen una base más pesada para evitar la inversión de caracteres y mejorar la fluidez en la lectura.",
+          "imagen": "https://i.imgur.com/nmFYkxR.png",
+          "caracteristicas": [
+            "Se puede integrar en sitios web para mejorar la accesibilidad del texto.",
+            "Ayuda a mejorar la legibilidad.",
+            "Reduce la confusión entre caracteres similares."
+          ],
+          "url_herramienta": "https://antijingoist.itch.io/opendyslexic",
+          "switch_id": "dislexiaSwitch"
+        },
+        {
+          "id": 6,
+          "titulo": "Filtro protector de la vista",
+          "subtitulo": "Filtro protector para la fatiga visual.",
+          "descripcion": "Permite activar un filtro protector para reducir la fatiga visual, ajustando el brillo, contraste y saturación de la página.",
+          "imagen": "https://i.imgur.com/99cUgDK.png",
+          "caracteristicas": [
+            "Filtro de brillo y contraste ajustable.",
+            "Reduce la saturación para un fondo más suave.",
+            "Descanso visual prolongado."
+          ],
+          "url_herramienta": "https://developer.mozilla.org/es/docs/Web/CSS/filter",
+          "switch_id": "protectorVistaSwitch"
+        }
+      ]
+    },
+    "desarrolloWeb": {
+      "herramienta": [
+        {
+          "id": 1,
+          "titulo": "Etiqueta ARIA Live para anuncios dinámicos",
+          "subtitulo": "Permite que los lectores de pantalla detecten cambios en tiempo real.",
+          "descripcion": "Implementa atributos ARIA para que los cambios en el contenido sean anunciados automáticamente a los usuarios que utilizan lectores de pantalla.",
+          "imagen": "https://i.imgur.com/VbITPbz.png",
+          "caracteristicas": [
+            "Compatible con tecnologías de asistencia.",
+            "Anuncia cambios sin necesidad de recargar la página.",
+            "Mejora la accesibilidad de contenido dinámico."
+          ],
+          "url_herramienta": "https://developer.mozilla.org/es/docs/Web/Accessibility/ARIA/Reference/Attributes",
+          "switch_id": "ariaLiveSwitch"
+        },
+        {
+          "id": 2,
+          "titulo": "Orden de navegación con teclado",
+          "subtitulo": "Asegura que los elementos se naveguen en el orden correcto.",
+          "descripcion": "Garantiza que los usuarios puedan navegar por la página utilizando solo el teclado, asegurando un orden lógico de tabulación.",
+          "imagen": "https://i.imgur.com/1kCGdVw.png",
+          "caracteristicas": [
+            "Compatible con navegación por teclado (Tab y Enter).",
+            "Indica errores en el orden de tabulación.",
+            "Mejora la experiencia de usuarios sin ratón."
+          ],
+          "url_herramienta": "https://www.ibm.com/docs/es/idr/11.3.3?topic=features-navigating-using-keyboard",
+          "switch_id": "ordenTecladoSwitch"
+        },
+        {
+          "id": 3,
+          "titulo": "Modo sin animaciones",
+          "subtitulo": "Reduce movimientos innecesarios para evitar mareos o distracción.",
+          "descripcion": "Desactiva las animaciones y efectos visuales para evitar molestias en personas con sensibilidad al movimiento o trastornos vestibulares.",
+          "imagen": "https://i.imgur.com/O4ewlFc.png",
+          "caracteristicas": [
+            "Opción de desactivar transiciones y efectos.",
+            "Compatible con configuraciones del sistema operativo.",
+            "Reduce el esfuerzo visual al navegar."
+          ],
+          "url_herramienta": "https://www.w3schools.com/css/css3_animations.asp",
+          "switch_id": "modoSinAnimacionesSwitch"
+        },
+        {
+          "id": 4,
+          "titulo": "Zoom sin perder funcionalidad",
+          "subtitulo": "Asegura que la página se mantenga funcional al ampliar la vista.",
+          "descripcion": "Demuestra cómo una página debe adaptarse al ser ampliada hasta un 200% sin afectar su funcionalidad ni diseño.",
+          "imagen": "https://i.imgur.com/4dsj6EU.png",
+          "caracteristicas": [
+            "Simulación de zoom accesible.",
+            "Comparación entre buen y mal diseño al ampliar.",
+            "Compatible con diferentes tamaños de pantalla."
+          ],
+          "url_herramienta": "https://developer.mozilla.org/es/docs/Web/CSS/zoom",
+          "switch_id": "zoomFuncionalSwitch"
+        }
+      ]
+    }
+  }
+  
